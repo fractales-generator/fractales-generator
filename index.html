@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Créatif - Spirales / fractales
+
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="canvas1"></canvas>
+    <div id="controls">
+        <button id="randomize">Aléatoire</button>
+        <div>
+            <input  id="spread" type="range" min="-3.1" max="3.1" step="0.2" value="1">
+            <label for="spread">spread : </label>
+        </div>
+        <div>
+            <input  id="sides" type="range" min="1" max="8" step="1" value="5">
+            <label for="sides">Sides : </label>
+        </div>
+        <div>
+            <input  id="maxLevel" type="range" min="0" max="4" step="1" value="1">
+            <label for="maxLevel">Level : </label>
+        </div> 
+        <div>
+            <input  id="branches" type="range" min="0" max="3" step="1" value="1">
+            <label for="branches">Branches : </label>
+        </div> 
+        <div>
+            <div class="item">
+                <input id="colorPicker"  type="color" >
+                <label for="colorPicker">colorPicker</label>
+              </div>
+  
+        </div> 
+        <button id="reset">Reset</button>
+
+    </div>
+    <script async src="script.js"></script>
+</body>
+
+</html>
+
+
